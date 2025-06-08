@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Class lesson</title>
+    <link rel="stylesheet" href="/CSS/Drum.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="logo">
+        <img src="/img/MusicPen.png" alt="" id="logo_img">
+        <h1>Music Pen</h1>
+    </div>
+
+        <div id="container">
+
+            <div id="content">
+                <h1 id="title">Lesson <span id="level"></span></h1>
+                <h2 id="header"></h2>
+
+
+                <div id="cont">
+                    <p id="text"></p>
+
+                   
+                </div>
+                
+            </div>
+
+            <div class="lesson-container">
+                <h2>Lesson Progress</h2>
+                <div class="lesson-grid" id="lessonGrid">
+
+                </div>
+
+                <div class="btn-cont">
+                    <button type="button" id="btnBack">Back</button>
+                    <button type="button" id="btnNext">Next</button>
+                     
+                 </div>
+ 
+                <button id="toggleBeatBtn">Show Key</button> 
+
+                <div id="beatDisplay" class="beat-display">Press a drum pad or key to see the name here.</div>
+    
+            </div>
+              
+           
+        </div>
+
+        <div class="Drum">
+            <ul class="Drum-sets">
+                <li class="Key Hi" data-key="Hi-Hat" data-note="A" ></li>
+                <li class="Key Crash" data-key="Crash-Cymbal" data-note="S"></li>
+                <li class="Key Ride" data-key="Ride-Cymbal" data-note="D"></li>
+                <li class="Key Snare" data-key="Snare-Drum" data-note="F"></li>
+                <li class="Key High" data-key="High-Tom" data-note="G"></li>
+                <li class="Key Mid" data-key="Mid-Tom" data-note="H"></li>
+                <li class="Key Floor" data-key="Floor-Tom" data-note="J"></li>
+                <li class="Key Bass" data-key="Bass-Drum" data-note="K"></li>
+            </ul>
+        </div>
+
+    <script src="/JS/Drum.js"></script>
+</body>
+</html>

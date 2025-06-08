@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --a:#6552D0;
+    --b:#17203D;
+    --c:#000000;
+    --d:#A5A5A5;
+    --e:white;
+}
+
+body{
+    font-family: "IBM Plex Sans", sans-serif;
+    background-color: var(--e);
+    position: fixed;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    font-family: "Roboto Slab", serif; 
+    background-color: var(--e);
+}
+
+.logo h1{
+    color: var(--a);
+    margin-left: 5px;
+    font-size: 25px;
+}
+
+#logo_img{
+    width: 50px;
+    height: 50px;
+}
+
+#container{
+    background-color: var(--b);
+    border-radius: 20px;  
+    display: flex;
+    flex-direction: row;
+    width: 1870px;
+    height: 500px;
+    margin: 20px;
+}
+
+#content{
+    background-color: var(--b);
+    padding: 10px;
+    border-radius: 20px;
+    width: 50%;
+    height: 450px;
+    margin: 10px;
+    overflow: hidden; 
+    position: relative;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+#cont{
+    background-color:var(--a);
+    width: 100%;
+    height: 315px;
+    padding: 2px;
+    border:solid 2px var(--e) ;
+    overflow-y: scroll; 
+    padding-right: 10px; 
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    scrollbar-width: none;    
+  -ms-overflow-style: none;
+}
+
+#title{
+    margin: 20px;
+    color: var(--e) ;
+}
+
+#header{
+    margin: 20px;
+    color: var(--e);
+}
+
+
+#text{
+   margin: 10px;
+   font-weight: 400;
+   color: var(--e);
+   font-size: 18px;
+}
+
+
+.btn-cont{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+button{
+    padding: 12px;
+    width: 15%;
+    margin: 5px 5px 5px 0;
+    background-color: var(--a);
+    border: none;
+    font-size: 14px;
+    color: var(--e);
+    text-decoration: none;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#toggleBeatBtn{
+    border-radius: 20px;
+    background-color: white;
+    color: #6552D0;
+}
+
+.beat-display {
+    margin: 10px 22%;
+    padding: 10px 15px;
+    font-size: 1.1rem;
+    background-color: #e0e0e0;
+    width: 50%;
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+.Drum.show-chords .Key::after {
+  content: attr(data-note);
+  position: absolute;
+  font-size: 10px;
+  color:#6552D0;
+  margin:auto;
+}
+
+.Drum {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: -20px; 
+    height: 500px;
+}
+  
+.Drum-sets {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+  
+.Key {
+    position: absolute;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+  
+ 
+.Hi {
+    background: gold;
+    border:solid 14px yellow;
+    width: 100px;
+    height: 100px;
+    top: 50px;
+    left: 50px;
+
+}
+  
+.Crash {
+    background: gold;
+    border:solid 14px yellow;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 180px;
+}
+  
+.Ride {
+    background: gold;
+    border:solid 14px yellow;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    right: 180px;
+    transform: translateZ(4);
+}
+  
+.Snare {
+    background: wheat;
+    border:solid 8px rgb(0, 174, 255);
+    width: 100px;
+    height: 100px;
+    top: 180px;
+    left: 180px;
+    transform: translateZ(1);
+}
+  
+.High {
+    background: wheat;
+    border:solid 8px rgb(0, 174, 255);
+    width: 90px;
+    height: 90px;
+    top: 120px;
+    left: 100px;
+    transform: translateZ(2);
+    
+}
+  
+.Mid {
+    background: wheat;
+    border:solid 8px rgb(0, 174, 255);
+    width: 90px;
+    height: 90px;
+    top: 120px;
+    right: 100px;
+    transform: translateZ(2);
+}
+
+.Floor {
+    background: wheat;
+    border:solid 8px rgb(78, 145, 177);
+    width: 100px;
+    height: 100px;
+    top: 180px;
+    right: 180px;
+}
+  
+.Bass {
+    background: rgb(0, 174, 255);
+    width: 180px;
+    height: 140px;
+    border-radius: 10%;
+    top: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.Key:active{
+    background-color: var(--b);
+}
+
+.lesson-container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.lesson-container h2{
+    margin: 20px;
+    color: var(--e);
+}
+  
+.lesson-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+    column-gap: 1px;
+    margin: 20px 0;
+    row-gap: 4px;
+    
+}
+  
+.level-box {
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+  
+.level-box.active {
+    background-color: var(--a); 
+}
+  
+  
+  
