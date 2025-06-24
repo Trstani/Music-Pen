@@ -1,0 +1,32 @@
+[
+  {
+    "level": "#1",
+    "hdr": "Drum Introduction",
+    "text": "Welcome to the world of drums! Let's get familiar with the parts of a drum kit and why rhythm is the heartbeat of music.",
+    "img": "/img/drum_intro.png"
+  },
+  {
+    "level": "#2",
+    "hdr": "Drum Notation",
+    "text": "Learn how drum notation works: the staff, different note positions for snare, bass, hi-hat, and more.",
+    "img": "/img/drum_notation.png"
+  },
+  {
+    "level": "#3",
+    "hdr": "Basic Rhythms",
+    "text": "Now let's explore simple drum patterns and time signatures commonly used in music.",
+    "img": "/img/drum_rhythms.png"
+  },
+  {
+    "level": "#4",
+    "hdr": "Basic Sticking",
+    "text": "Get into the habit of good hand technique! Learn basic sticking patterns: RLRL, paradiddles, and more.",
+    "img": "/img/sticking.png"
+  },
+  {
+    "level": "#5",
+    "hdr": "Practice Routine",
+    "text": "Time to play along! Here's a basic practice routine combining rhythm, coordination, and sticking.",
+    "img": "/img/practice_routine.png"
+  }
+]

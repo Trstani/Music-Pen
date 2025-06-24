@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Pen</title>
+    <link rel="stylesheet" href="/CSS/landpage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="/img/MusicPen-removebg-preview.png" alt="" id="logo_img">
+      <h1>MusicPen</h1>
+    </div>
+
+    <div class="Prof">
+      <img src="/img/user.png" alt="" id="acc_img">
+      <h3 id="name">.</h3>
+    </div>
+
+    <div class="nav">
+        <ul id="top">
+            <li><a href="/index.html"><i class="fa-solid fa-house"></i>Home</a></li>
+            <li><a href="#WLesson"><i class="fa-solid fa-desktop"></i>Lesson</a></li>
+            <li><a href="#Progress"><i class="fa-solid fa-chart-line"></i>Progress</a></li>
+            <li><a href="#Community"><i class="fa-solid fa-users"></i>Community</a></li>
+            <li><a href="#Mentor"><i class="fa-solid fa-chalkboard-user"></i>Mentor</a></li>
+        </ul>
+
+        <ul id="btm">
+          <li><a href=""><i class="fa-solid fa-gear"></i></a></li>
+          <li><a href=""><i class="fa-solid fa-circle-info"></i></a></li>
+          <li><a href=""><i class="fa-solid fa-envelope"></i></a></li>
+        </ul>
+    </div>
+
+    <div>
+      <p id="year"></p>
+    </div>
+
+  </header>
+
+  <main>
+    <div class="carousel">
+      <div class="carousel-track">
+        <div class="slide">
+          <img src="/img/1.png" alt="">
+          <p>Easy and Simple way to Learn Music</p>
+        </div>
+        <div class="slide">
+          <img src="/img/2.png" alt="">
+          <p>Comunnity united by Music</p>
+        </div>
+        <div class="slide">
+          <img src="/img/3.png" alt="">
+          <p>Learn Music Step-By-Step</p>
+        </div>
+        <div class="slide">
+          <img src="/img/4.png" alt="">
+          <p>Discover your true talent</p>
+        </div>
+        <div class="slide">
+          <img src="/img/5.png" alt="">
+          <p>Everywhere anytime available on every device</p>
+        </div>
+      </div>
+      <div class="carousel-dots"></div>
+    </div>
+
+    <div id="welcome">Welcome!</div>
+
+    <div id="search">
+      <label for="sr"><i class="fa-solid fa-magnifying-glass fa-xl" style="color: grey"></i></label>
+      <input type="text" id="sr" placeholder="Search for content">
+    </div>
+
+
+    <section class="breaker" id="Progress">
+      <div class="block1">
+        <h3>Progress:</h3>
+        <div id="graph">
+
+        </div>
+      </div>
+      <div class="block2">
+        <div id="lastVisit"></div>
+        <div id="history"></div>
+
+      </div>
+    </section>
+
+    <section class="break" id="WLesson">
+      <div class="container">
+        <h1 id="title">Music Lesson</h1>
+        <a href="" id="show">Show More <i class="fa-solid fa-chevron-right fa-lg" style="color: #17203d;"></i></a>
+      </div>
+
+        <div class="trr">
+          <a class="content" href="/HTML/Piano.html">
+            <img src="/img/Piano.png" alt="" id="imglesson">
+            <h3>Piano Lesson</h3>
+            <p>Learn How to play Piano step by step from how to read a music sheet, to playing your first piano. </p>
+          </a>
+
+          <a class="content" href="/HTML/Drum.html">
+            <img src="/img/Drum.png" alt="" id="imglesson">
+            <h3>Drum Lesson</h3>
+            <p>Learn how to play Drum step by step from understanding a beat, to play your first drum.</p>
+          </a>
+
+          <a class="content">
+            <img src="/img/Microphone.png" alt="" id="imglesson">
+            <h3>Vocal Lesson</h3>
+            <p>Learn how to level up your Vocal, from maximalize your voice, to singing your first song.</p>
+          </a>
+
+          <a class="content">
+            <img src="/img/Guitar.png" alt="" id="imglesson">
+            <h3>Guitar Lesson</h3>
+            <p>Learn how to play Guitar, from how to play with guitar strings, to play your first guitar song.</p>
+          </a>
+
+          <a class="content">
+            <img src="/img/Bass-Guitar.png" alt="" id="imglesson">
+            <h3>Bass Lesson</h3>
+            <p>Learn how to play Bass, from how to play with bass strings, to play your first bass. </p>
+          </a>
+        </div>  
+    </section>
+
+    <section class="break" id="VidLesson">
+      <div class="container">
+        <h1 id="title">Video Lesson</h1>
+        <a href="" id="show">Show More <i class="fa-solid fa-chevron-right fa-lg" style="color: #17203d;"></i></a>
+      </div>
+
+        <div class="trr">
+          <a class="content" href="/HTML/Piano.html">
+            <img src="/img/music_14384856.png" alt="" id="imglesson">
+            <h3>Piano Video Lesson</h3>
+            <p>Learn How to play Piano step by step from how to read a music sheet, to playing your first piano. </p>
+          </a>
+
+          <a class="content" href="/HTML/Drum.html">
+            <img src="/img/music_14384828.png" alt="" id="imglesson">
+            <h3>Drum Video Lesson</h3>
+            <p>Learn how to play Drum step by step from understanding a beat, to play your first drum.</p>
+          </a>
+
+          <a class="content">
+            <img src="/img/sound-wave_14384823.png" alt="" id="imglesson">
+            <h3>Vocal Video Lesson</h3>
+            <p>Learn how to level up your Vocal, from maximalize your voice, to singing your first song.</p>
+          </a>
+
+          <a class="content">
+            <img src="/img/sound-wave_14384786.png" alt="" id="imglesson">
+            <h3>Guitar Video Lesson</h3>
+            <p>Learn how to play Guitar, from how to play with guitar strings, to play your first guitar song.</p>
+          </a>
+
+          <a class="content">
+            <img src="/img/equalizer_14384235.png" alt="" id="imglesson">
+            <h3>Bass Video Lesson</h3>
+            <p>Learn how to play Bass, from how to play with bass strings, to play your first bass. </p>
+          </a>
+        </div>  
+    </section>
+
+    <section class="break" id="Community">
+      <div class="container">
+        <h1 id="title">Music Pen Community</h1>
+        <a href="" id="show">Show More <i class="fa-solid fa-chevron-right fa-lg" style="color: #17203d;"></i></a>
+      </div>
+
+        <div class="trr">
+          <div class="block1" id="ckck">
+            <h1>Find a Mentor to improve your skillls</h1>
+            <h2>Or become a Mentor to help the community improve their Music Skills</h2>
+          </div>
+
+          <div class="card-container">
+            <div class="block3" id="ckcc">
+              <img src="https://file.aiquickdraw.com/imgcompressed/img/compressed_5b5d78bd9e0cf6362c488bb78955dbf9.webp" alt="">
+              <h2>Mia Ross</h2>
+            </div>
+            <div class="block3" id="ckcd">
+              <img src="https://file.aiquickdraw.com/imgcompressed/img/compressed_bfcdb1d53e3d3ee1d3397d83aa237096.webp" alt="">
+              <h2>Frank Zappa</h2>
+            </div>
+            <div class="block3" id="ckce">
+              <img src="https://file.aiquickdraw.com/imgcompressed/img/compressed_bd75208c54a9aa3b25d9878af4230f9c.webp" alt="">
+              <h2>Simon Bombardilo</h2>
+            </div>
+          </div>
+        </div>
+    </section>
+
+   
+
+    <section class="breaker" id="Mentor">
+      <div class="block1" id="contact">
+        <h3>Mentor of the Month:</h3>
+        <div class="acc" id="S-tier">
+          <img src="https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?cs=srgb&dl=pexels-creationhill-1681010.jpg&fm=jpg" alt="">
+          <h4>Dima Astro</h4>
+          <i class="fa-solid fa-crown"> 1</i>
+        </div>
+        <div class="acc" id="A-tier">
+          <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?cs=srgb&dl=pexels-pixabay-415829.jpg&fm=jpg" alt="">
+          <h4>Allen White</h4>
+          <i class="fa-solid fa-crown"> 2</i>
+        </div>
+        <div class="acc" id="B-tier">
+          <img src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?cs=srgb&dl=pexels-olly-733872.jpg&fm=jpg" alt="">
+          <h4>Risa Mont</h4>
+          <i class="fa-solid fa-crown"> 3</i>
+        </div>
+        <div class="acc">
+          <img src="https://styles.redditmedia.com/t5_80nq6h/styles/communityIcon_p1cxb97qq4ma1.png" alt="">
+          <h4>Cleric Birm</h4>
+          <i class="fa-solid fa-star" style="color: white;"></i>
+        </div>
+        <div class="acc">
+          <img src="https://wallpapers.com/images/file/professional-profile-pictures-2880-x-1920-xq8yol0nn3qfm0w4.jpg" alt="">
+          <h4>Silvie Clark</h4>
+          <i class="fa-solid fa-star" style="color: white;"></i>
+        </div>
+
+        <button id="sall">Show All<i class="fa-solid fa-arrow-right-long" style="margin-left: 5px;" ></i></button>
+      </div>
+
+
+      <div class="block2" id="videe">
+        <h3>Community Videos:</h3>
+        <div id="vid">
+          <iframe src="https://www.youtube.com/embed/b0Se1M924Hc?si=Ok3-E_RmcxNvsHMR&amp;start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+          <div id="dse">
+            <h4>Aurora - Violin Cover (Runaway)</h4>
+            <p>Hope you like my version of "Runaway"! SHEET MUSIC will be available soon</p>
+
+            <div id="like">
+              <i class="fa-solid fa-heart" style="color: #ff42c3;"><span>899</span></i>
+              <i class="fa-solid fa-share" style="color:dodgerblue"><span>300</span></i>
+
+            </div>
+          </div>
+        </div>
+
+        <div id="vid">
+          <iframe src="https://www.youtube.com/embed/5v9qO37qp2U?si=ZuOm4jbwtLdPHGLk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+          <div id="dse">
+            <h4>Yun Kai - Piano Cover (Blue)</h4>
+            <p>Hope you like my version of "Blue"! SHEET MUSIC will be available soon</p>
+
+            <div id="like">
+              <i class="fa-solid fa-heart" style="color: #ff42c3;"><span>930</span></i>
+              <i class="fa-solid fa-share" style="color:dodgerblue"><span>140</span></i>
+
+            </div>
+          </div>
+        </div>
+
+        <div id="vid">
+          <iframe src="https://www.youtube.com/embed/hcv06If8jXE?si=_zMJYPTGBW79U1TA&amp;start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+          <div id="dse">
+            <h4>Guns N' Roses - Guitar Cover (Sweet Child O' Mine)</h4>
+            <p>Hope you like my version of "Sweet Child O' Mine"! SHEET MUSIC will be available soon</p>
+
+            <div id="like">
+              <i class="fa-solid fa-heart" style="color: #ff42c3;"><span>1200</span></i>
+              <i class="fa-solid fa-share" style="color:dodgerblue"><span>388</span></i>
+
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    
+
+
+  </main>
+
+  
+    <script src="/JS/landpage.js"></script>
+</body>
+</html>
