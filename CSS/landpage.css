@@ -215,7 +215,7 @@ main{
     margin: 10px 35px;
 }
 
-#title{
+.title{
     font-size: 23px;
     font-weight: 800;
     color: var(--a);
@@ -268,8 +268,9 @@ main{
     transform: translateY(-2px);
 }
 
-#imglesson{
+.imglesson{
     width: 40px;
+    margin: 0 40%;
 }
   
 .content p{

@@ -431,6 +431,7 @@ input{
     border-radius: 20px;
     border-style: none;
     background-color: var(--b);
+    margin: 1rem 40%;
 }
 
 #btn2{
