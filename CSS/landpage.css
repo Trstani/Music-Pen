@@ -361,7 +361,7 @@ main{
 }
 
 #ckcd{
- background-color: royalblue;
+    background-color: royalblue;
 }
 
 #ckce{
@@ -404,7 +404,7 @@ main{
 
 .acc{
     display: flex;
-    background-color: var(--a);
+    background-color: var(--e);
     align-items: center;
     padding:8px;
     margin: 5px;
@@ -422,12 +422,13 @@ main{
 .acc h4{
     margin-left: 5px;
     width: 90px;
-    color: white;
+    color: var(--f);
 }
 
 .acc i{
     position: relative;
-    left:65% ;
+    left:65%;
+    color:var(--f);
 }
 
 .round{
